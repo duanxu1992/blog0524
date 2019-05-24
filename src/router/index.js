@@ -1,273 +1,118 @@
-var subRouter = function (Main) {
-	return [
-		{
-			path: '/',
-			name: '',
-			meta: {sign: 'IS_NOT_REQUIRE'},
-			redirect: '/login'
-		},
-		// {
-		// 	path: '/demo',
-		// 	name: 'demo',
-		// 	meta: {sign: 'IS_NOT_REQUIRE'},
-		// 	title: 'demo',
-		// 	component: () => import('main/view/main/demo')
-		// },
-		{
-			path: '/ioms-appraisal',
-			icon: 'ios-grid-view',
-			// name: 'ioms-apprasial',
-			title: '首页',
-			meta: {sign: 'AUTH_INDEX'},
-			component: Main,
-			children: [
-				{
-					path: 'toal-score',
-					title: '考核总成绩',
-					meta: {sign: 'AUTH_COMPANY_MG'},
-					name: 'toal-score',
-					component: () => import('../view/total-score/toal-score.vue')
-				},
-				{
-					path: 'notification-List',
-					title: '考核通知公告',
-					meta: {sign: 'AUTH_COMPANY_MG'},
-					name: 'notification-List',
-					component: () => import('../view/total-score/notification-List.vue')
-				},
-				{
-					path: 'config',
-					title: '后台配置',
-					meta: {sign: 'AUTH_COMPANY_MG'},
-					name: 'Backstage-config',
-					component: () => import('../view/config/config.vue')
-				},
-				{
-					path: 'zaideConfig',
-					title: '载德公司数据导入',
-					meta: {sign: 'AUTH_COMPANY_MG'},
-					name: 'Backstage-config',
-					component: () => import('../view/config/zaide-config.vue')
-				},
-				{
-					// path: 'personal-center/:userId',
-					path: 'personal-center',
-					title: '个人中心',
-					name: 'personal-center',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/personal-center/index')
-				},
-				// 视频质量
-				{
-					path: 'video-quality',
-					title: '视频质量',
-					name: 'video-quality',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/video-quality/video-quality.vue')
-				},
-				{
-					path: 'video-quality-unqualified',
-					title: '不及格数',
-					name: 'unqualified-number',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/video-quality/video-quality-unqualified.vue')
-				},
-				//重点区域
-				{
-					path: 'key-area',
-					title: '重点区域',
-					name: 'key-area',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/key-area/key-area-home.vue')
-				},
-				{
-					path: 'city-key-area-unqualified',
-					title: '重点区域市级不合格明细',
-					name: 'city-key-area-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/key-area/city-key-area-unqualified.vue')
-				},
-				{
-					path: '/',
-					title: '404',
-					name: 'ppl-detail',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('main/view/error-page/404.vue')
-				},
-				//视频联网
-				{
-					path: 'video-networking',
-					icon: 'ios-grid-view',
-					name: 'video_networking',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频联网',
-					component: () => import('../view/video-networking/video-networking.vue')
-				},
-				{
-					path: 'video-networking-unqualify',
-					name: 'video-networking-unqualify',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频联网不合格总计',
-					component: () => import('../view/video-networking/video-networking-unqualified-total.vue')
-				},
-				{
-					path: 'video-networking-catalog-unqualify',
-					name: 'catalogDisqualify',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频联网目录不合格数',
-					component: () => import('../view/video-networking/video-networking-catalogUnqualified.vue')
-				},
-				{
-					path: 'video-networking-divice-unqualified',
-					name: 'diviceUnqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频联网不合格设备',
-					component: () => import('../view/video-networking/video-networking-diviceUnqualified.vue')
-				},
-				{
-					path: 'video-networking-coordinates-unqualified',
-					name: 'coordinatesUnqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频联网经纬度不合格',
-					component: () => import('../view/video-networking/video-networking-coordinatesUnqualified.vue')
-				},
-				// 动态人像联网考核
-				{
-					path: 'video-bayonet',
-					name: 'video-bayonet',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网',
-					component: () => import('../view/video-bayonet/video-bayonet.vue')
-				},
-				//视频卡口
-				{
-					path: 'video-bayonet',
-					name: 'video-bayonet',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网',
-					component: () => import('../view/video-bayonet/video-bayonet.vue')
-				},
-				{
-					path: 'video-bayonet-unqualify',
-					name: 'video-bayonet-unqualify',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网不合格总计',
-					component: () => import('../view/video-networking/video-networking-unqualified-total.vue')
-				},
-				{
-					path: 'video-bayonet-catalog-unqualify',
-					name: 'video-bayonet-catalog-unqualify',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网目录不合格数',
-					component: () => import('../view/video-networking/video-networking-catalogUnqualified.vue')
-				},
-				{
-					path: 'video-bayonet-divice-unqualified',
-					name: 'video-bayonet-divice-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网不合格设备',
-					component: () => import('../view/video-networking/video-networking-diviceUnqualified.vue')
-				},
-				{
-					path: 'video-bayonet-coordinates-unqualified',
-					name: 'video-bayonet-coordinates-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口联网经纬度不合格',
-					component: () => import('../view/video-networking/video-networking-coordinatesUnqualified.vue')
-				},
-				//视频卡口质量
-				{
-					path: 'video-bayonet-quality',
-					name: 'video-bayonet-quality',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '视频卡口质量',
-					component: () => import('../view/video-bayonet-quality/video-bayonet-quality.vue')
-				},
-				{
-					path: 'video-bayonet-quality-unqualified',
-					title: '视频卡口质量不合格',
-					name: 'unqualified-number',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					icon: 'arrow-move',
-					component: () => import('../view/video-quality/video-quality-unqualified.vue')
-				},
-				//一机一档
-				{
-					path: 'bookbuilding-unqualified',
-					name: 'bookbuilding-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '一机一档建档不合格',
-					component: () => import('../view/machine-gear/bookbuilding-unqualified.vue')
-				},
-				{
-					path: 'machine-gear',
-					name: 'machine-gear',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '一机一档',
-					component: () => import('../view/machine-gear/machine-gear.vue')
-				},
-				{
-					path: 'bookbuilding-coordinate-unqualified',
-					name: 'bookbuilding-coordinate-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '一机一档建档坐标不合格',
-					component: () => import('../view/machine-gear/bookbuilding-coordinate-unqualified.vue')
-				},
-				{
-					path: 'coordinate-unqualified',
-					name: 'coordinate-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '一机一档坐标不合格',
-					component: () => import('../view/machine-gear/coordinate-unqualified.vue')
-				},
-				//智能卡口
-				{
-					path: 'intelligence-bayonet',
-					name: 'intelligence-bayonet',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '智能卡口',
-					component: () => import('../view/intelligence-bayonet/intelligence-bayonet-home.vue')
-				},
-				//智能卡口不合格页面
-				{
-					path: 'intelligence-bayonet-unqualified',
-					name: 'intelligence-bayonet-unqualified',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '智能卡口不合格',
-					component: () => import('../view/intelligence-bayonet/intelligence-bayonet-unqualified.vue')
-				},
-				//平台稳定性
-				{
-					path: 'platform-status',
-					name: 'platform-status',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '平台稳定性',
-					component: () => import('../view/platform-status/platform-status.vue')
-				},
-				//平台稳定性明细
-				{
-					path: 'platform-status-offlinedetail',
-					name: 'platform-status-offlinedetail',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '平台稳定性明细',
-					component: () => import('../view/platform-status/platform-status-offlinedetail.vue')
-				},
-				//平台稳定性报备历史
-				{
-					path: 'platform-status-offline-reporthistory',
-					name: 'platform-status-offline-reporthistory',
-					meta: {sign: 'IS_NOT_REQUIRE'},
-					title: '平台稳定性报备历史',
-					component: () => import('../view/platform-status/offline-reporthistory.vue')
-				}
-			]
-		}
-	];
-};
-export default subRouter;
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from 'main/view/main/Main';
+import Login from 'main/view/login/Login';
+
+// import dyanpageRouter from 'dynapage/app-dynapage/router';
+// import SubRouter from 'submodule/ioms-apprasial/router';
+const moduleConfig = require('../../module-config.js');
+
+let routes = [
+  {
+    path: '/',
+    name: '',
+    meta: {sign: 'IS_NOT_REQUIRE'},
+    redirect: '/login'
+  },
+  {
+    path: '/login',
+    name: 'login',
+    meta: {sign: 'IS_NOT_REQUIRE'},
+    title: '登录',
+    component: Login
+  },
+  {
+    path: '/demo',
+    name: 'demo',
+    meta: {sign: 'IS_NOT_REQUIRE'},
+    title: 'demo',
+    component: () => import('main/view/main/demo')
+  },
+  {
+    path: '/kisp',
+    icon: 'ios-grid-view',
+    name: 'kisp',
+    title: '首页',
+    meta: {sign: 'AUTH_INDEX'},
+    component: Home,
+    children: [
+      // 权限管理 结束
+      // 个人中心
+      {
+        // path: 'personal-center/:userId',
+        path: 'personal-center',
+        title: '个人中心',
+        name: 'personal-center',
+        meta: {sign: 'IS_NOT_REQUIRE'},
+        icon: 'arrow-move',
+        component: () => import('main/view/personal-center/index')
+      },
+      {
+        path: '/*',
+        title: '404',
+        name: 'ppl-detail',
+        meta: {sign: 'IS_NOT_REQUIRE'},
+        icon: 'arrow-move',
+        component: () => import('main/view/error-page/404.vue')
+      }
+    ]
+  }
+];
+
+// 注册子模块路由
+// routes.unshift(...dyanpageRouter(Home));
+// routes.unshift(...SubRouter(Home));
+
+if (moduleConfig && moduleConfig.length > 0) {
+  moduleConfig.forEach(item => {
+    if (item.router) {
+      try {
+        var Router = require(`submodule/${item.name}/router`);
+        routes.unshift(...Router.default(Home));
+      } catch (err) {
+        console.warn('cannot find submodule\'s router.js!');
+      }
+    }
+  });
+}
+
+Vue.use(Router);
+console.log('router', routes);
+
+let router = new Router({
+  routes: routes
+});
+router.beforeEach((to, from, next) => {
+  if (to.matched.length > 0 && to.matched[1] && (to.matched[1].name === 'map-index')) {
+    // 所有map页面html类名样式
+    document.getElementsByTagName('html')[0].className = 'map-html';
+  } else {
+    document.getElementsByTagName('html')[0].className = (to.path.split('/')[2] || to.path.split('/')[1]) + '-page';
+  }
+  // if (to.meta.sign === 'IS_NOT_REQUIRE') {
+  if (false) {
+    next();
+  } else {
+    if (sessionStorage.getItem('jwt_token')) {
+      console.log('当前路由', to.path);
+      // 其他路由没有退出跳转到login的情况下
+      if (to.path.indexOf('login') > 0 && sessionStorage.getItem('jwt_token')) {
+        sessionStorage.removeItem('jwt_token');
+        ajaxIndex.endLoading();
+      }
+      //
+      next();
+    } else {
+      if (to.fullPath === '/login') {
+        next();
+      } else {
+        Message({
+          message: '对不起，您没有权限！',
+          type: 'error'
+        });
+        next('/login');
+      }
+    }
+  }
+});
+export default router;
