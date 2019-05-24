@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "message": "",
+    "status": 200,
+    "data": {
+      "pollingNum": 1,
+      "qualifiedNum": 1,
+      "qualifiedRate": "",
+      "unqualifiedNum": 1,
+      "qualifiedChart": [
+        {
+          "name": "",
+          "pollingNum": 1,
+          "qualifiedNum": 1,
+          "unqualifiedNum": 1,
+          "qualifiedRate": ""
+        }
+      ],
+      "qualifiedList": [
+        {
+          "name": "",
+          "totalRanking": 1,
+          "totalScore": 1,
+          "qualifiedNum": 1,
+          "qualifiedRate": "",
+          "unqualifiedNum": 1,
+          "score": "",
+          "groupID": "",
+          "totalqualifiedNum": 1,
+          "totalqualifiedRate": "",
+          "totalunqualifiedNum": 1,
+          "pollingNum": 1,
+          "totalpollingNum": 1
+        }
+      ]
+    }
+  }

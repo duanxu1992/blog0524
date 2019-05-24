@@ -1,0 +1,47 @@
+{
+    "code": 1,
+    "message": "",
+    "status": 200,
+    "data": {
+      "videonetworkingChart": [
+        {
+          "name": "",
+          "videoprofileNum": 1,
+          "qualifiedNum": 1,
+          "unqualifiedNum": 1,
+          "groupID": ""
+        }
+      ],
+      "videoprofileNum": 1,
+      "qualifiedNum": 1,
+      "unqualifiedNum": 1,
+      "videonetworkingList": [
+        {
+          "name": "",
+          "groupID": "",
+          "totalRanking": 1,
+          "totalScore": "",
+          "groupNum": 1,
+          "videoprofileNum": 1,
+          "qulifiedNum": 1,
+          "qualifiedRate": "",
+          "unqualifiedNum": 1,
+          "videoprofileScore": "",
+          "coordinateNum": 1,
+          "unqualifiedCoordinateNum": 1,
+          "qualifiedCoordinateRate": 1,
+          "coordinateScore": "",
+          "score": "",
+          "totalGroupNum": 1,
+          "totalVideoprofileNum": 1,
+          "totalQualifiedNum": 1,
+          "totalQualifiedRate": "1",
+          "totalUnqualifiedNum": 1,
+          "totalCoordinateNum": 1,
+          "totalQualifiedCoordinateRate": "",
+          "totalUnqualifiedCoordinateNum": 1
+        }
+      ],
+      "qualifiedRate": ""
+    }
+  }

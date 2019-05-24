@@ -1,0 +1,1840 @@
+{
+	"code": 1,
+	"message": "",
+	"status": 200,
+	"data": {
+		"scoreChart": [
+			{
+				"name": "南宁市",
+				"score": 454,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 778,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 234,
+				"groupID": "2"
+			},
+
+			{
+				"name": "南宁市",
+				"score": 234,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 678,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 567,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 894,
+				"groupID": "6"
+			},
+			{
+				"name": "青岛",
+				"score": 654,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 124,
+				"groupID": "2"
+			},
+			{
+				"name": "南宁市",
+				"score": 124,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 577,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 893,
+				"groupID": "2"
+			},
+			{
+				"name": "南宁市",
+				"score": 234,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 654,
+				"groupID": "6"
+			},
+			{
+				"name": "青岛",
+				"score": 245,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 547,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 546,
+				"groupID": "6"
+			},
+			{
+				"name": "南宁市",
+				"score": 345,
+				"groupID": "2"
+			},
+			{
+				"name": "青岛",
+				"score": 444,
+				"groupID": "6"
+			},
+			{
+				"name": "青岛",
+				"score": 925,
+				"groupID": "6"
+			}
+		],
+		"scoreList": [
+			{
+				"name": "武鸣县",
+				"totalScore":"444",
+				"totalRanking": 1,
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			},
+			{
+				"name": "隆安县",
+				"totalScore": "444",
+				"totalRanking": 2,
+				"platformScore": "222",
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			},
+			{
+				"name": "马山县",
+				"totalScore": "444",
+				"totalRanking": 3,
+				"platformScore": "222",
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			},
+			{
+				"name": "上林县",
+				"totalScore": "444",
+				"totalRanking": 4,
+				"platformScore": "222",
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			},
+			{
+				"name": "宾阳县",
+				"totalScore": "444",
+				"totalRanking": 5,
+				"platformScore": "222",
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			},
+			{
+				"name": "横县",
+				"totalScore": "444",
+				"totalRanking": 6,
+				"platformScore": "222",
+				"videoqualityScore": "5555",
+				"videonetworkingScore": "444",
+				"keyareaScore": "456",
+				"videoprofileConstructionScore": "451",
+				"videoprofileCoordinatesScore": "123",
+				"publicsecurityVideoclipNetworkScore": "99",
+				"trafficpoliceVideoclipNetworkScore": "56",
+				"intelligentVideoclipNetworkScore": "93",
+				"groupID": "1"
+			}
+		],
+		"unqualifiedList": [
+			{
+				"groupName": "武鸣县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "隆安县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "马山县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "上林县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "宾阳县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "横县",
+				"longitude": "1",
+				"latitude": "2",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		}
+		],
+		"catalogDisqualifyData": [
+			{
+				"groupName": "武鸣县",
+				"catalogName": "南岭交警",
+				"catalogPrifixCode": "4501660000",
+				"unqualifiedCause": "94"
+			},
+			{
+				"groupName": "",
+				"catalogName": "南岭交警",
+				"catalogPrifixCode": "4501660000",
+				"unqualifiedCause": "90"
+			},
+			{
+				"groupName": "",
+				"catalogName": "南岭交警",
+				"catalogPrifixCode": "4501660000",
+				"unqualifiedCause": "84"
+			},
+			{
+				"groupName": "隆安县",
+				"catalogName": "南岭交警",
+				"catalogPrifixCode": "4501660000",
+				"unqualifiedCause": "78"
+			}
+		],
+		"deviceUnqualifiedList": [
+			{
+				"groupName": "武鸣县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "隆安县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "马山县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "上林县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "宾阳县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		},{
+				"groupName": "横县",
+				"catalogCode": "465202",
+				"devicePrifixCode": "450166",
+				"deviceGBID": 45016600001234567890,
+				"deviceName": "广西民族大道规划街道"
+		}
+		],
+		"networkingNum": 82452,
+    "qualifiedNum": 784245,
+    "unqualifiedNum": 78207,
+		"videonetworkingChart": [
+			{
+				"name": "桂林市",
+				"groupID": "1",
+				"networkingNum": "9400",
+				"qualifiedNum": "9200",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "南宁市",
+				"groupID": "2",
+				"networkingNum": "9000",
+				"qualifiedNum": "8800",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "贵港市",
+				"groupID": "3",
+				"networkingNum": "7800",
+				"qualifiedNum": "7600",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "钦州市",
+				"groupID": "4",
+				"networkingNum": "7600",
+				"qualifiedNum": "7400",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "贺州市",
+				"groupID": "5",
+				"networkingNum": "7400",
+				"qualifiedNum": "7200",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "来宾市",
+				"groupID": "6",
+				"networkingNum": "7200",
+				"qualifiedNum": "7000",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "北海市",
+				"groupID": "7",
+				"networkingNum": "7000",
+				"qualifiedNum": "6800",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "柳州市",
+				"groupID": "8",
+				"networkingNum": "6800",
+				"qualifiedNum": "6600",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "百色市",
+				"groupID": "9",
+				"networkingNum": "6600",
+				"qualifiedNum": "6400",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "河池市",
+				"groupID": "10",
+				"networkingNum": "6400",
+				"qualifiedNum": "6200",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "玉林市",
+				"groupID": "11",
+				"networkingNum": "6200",
+				"qualifiedNum": "6000",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "梧州市",
+				"groupID": "12",
+				"networkingNum": "6000",
+				"qualifiedNum": "5800",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "防城港市",
+				"groupID": "13",
+				"networkingNum": "5800",
+				"qualifiedNum": "5600",
+				"unqualifiedNum": "400"
+			},
+			{
+				"name": "崇左市",
+				"groupID": "14",
+				"networkingNum": "5600",
+				"qualifiedNum": "5400",
+				"unqualifiedNum": "400"
+			}
+		],
+		"videonetworkingChartCity":[
+			{
+				"name": "南宁市区",
+				"groupID": "20",
+				"networkingNum": "9400",
+				"qualifiedNum": "8500",
+				"unqualifiedNum": "900"
+			},
+			{
+				"name": "隆安县",
+				"groupID":"21",
+				"networkingNum": "9000",
+				"qualifiedNum": "8100",
+				"unqualifiedNum": "900"
+			},
+			{
+				"name": "马山县",
+				"groupID":"22",
+				"networkingNum": "8600",
+				"qualifiedNum": "7800",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "上林县",
+				"groupID":"23",
+				"networkingNum": "8000",
+				"qualifiedNum": "7200",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "贺州市",
+				"groupID":"24",
+				"networkingNum": "7500",
+				"qualifiedNum": "6700",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "宾阳县",
+				"groupID":"25",
+				"networkingNum": "7000",
+				"qualifiedNum": "6200",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "横县",
+				"groupID":"26",
+				"networkingNum": "6500",
+				"qualifiedNum": "5700",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "武鸣区",
+				"groupID":"27",
+				"networkingNum": "6000",
+				"qualifiedNum": "5200",
+				"unqualifiedNum": "800"
+			},
+			{
+				"name": "南宁社会面",
+				"groupID":"28",
+				"networkingNum": "5500",
+				"qualifiedNum": "4700",
+				"unqualifiedNum": "800"
+			}
+		],
+		"videotable": [
+			{
+				"name": "桂林市",
+				"groupID": "1",
+				"totalRanking": "1",
+				"toalScore": "9400",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "940",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "南宁市",
+				"groupID": "2",
+				"totalRanking": "2",
+				"toalScore": "9000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "900",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "贵港市",
+				"groupID": "3",
+				"totalRanking": "3",
+				"toalScore": "8600",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "钦州市",
+				"groupID": "4",
+				"totalRanking": "4",
+				"toalScore": "8000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "贺州市",
+				"groupID": "5",
+				"totalRanking": "5",
+				"toalScore": "7500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "来宾市",
+				"groupID": "6",
+				"totalRanking": "6",
+				"toalScore": "7000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "北海市",
+				"groupID": "7",
+				"totalRanking": "7",
+				"toalScore": "6500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "柳州市",
+				"groupID": "8",
+				"totalRanking": "8",
+				"toalScore": "6000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "百色市",
+				"groupID": "9",
+				"totalRanking": "9",
+				"toalScore": "5500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "河池市",
+				"groupID": "10",
+				"totalRanking": "10",
+				"toalScore": "5000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "玉林市",
+				"groupID": "11",
+				"totalRanking": "11",
+				"toalScore": "4500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "梧州市",
+				"groupID": "12",
+				"totalRanking": "12",
+				"toalScore": "4000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "防城港市",
+				"groupID": "13",
+				"totalRanking": "13",
+				"toalScore": "3500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "崇左市",
+				"groupID": "14",
+				"totalRanking": "14",
+				"toalScore": "3000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			}
+		],
+		"videotableCity": [
+			{
+				"name": "南宁市区",
+				"groupID":"20",
+				"totalRanking": "1",
+				"toalScore": "9400",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "940",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "隆安县",
+				"groupID":"21",
+				"totalRanking": "2",
+				"toalScore": "9000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "900",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "马山县",
+				"groupID":"22",
+				"totalRanking": "3",
+				"toalScore": "8600",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "上林县",
+				"groupID":"23",
+				"totalRanking": "4",
+				"toalScore": "8000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "贺州市",
+				"groupID":"24",
+				"totalRanking": "5",
+				"toalScore": "7500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "宾阳县",
+				"groupID":"25",
+				"totalRanking": "6",
+				"toalScore": "7000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "横县",
+				"groupID":"26",
+				"totalRanking": "7",
+				"toalScore": "6500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "武鸣区",
+				"groupID":"27",
+				"totalRanking": "8",
+				"toalScore": "6000",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			},
+			{
+				"name": "南宁社会面",
+				"groupID":"28",
+				"totalRanking": "9",
+				"toalScore": "5500",
+				"groupNum": "10",
+				"networkingNum": "94",
+				"networkingBaseNum": "94",
+				"networkingIncrement": "94",
+				"networkingScore": "94",
+				"catalogQualifiedNum": "94",
+				"catalogUnqualifiedNum": "800",
+				"unqualifiedNum": "4",
+				"unqualifiedCoordinateNum": "20"
+			}
+		],
+		"qualifiedChart": [
+			{
+				"name": "桂林市",
+				"pollingNum": 9400,
+				"qualifiedRate": "9400",
+				"qualifiedNum": 9200,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "南宁市",
+				"pollingNum": 9000,
+				"qualifiedRate": "9000",
+				"qualifiedNum": 8800,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "贵港市",
+				"pollingNum": 7800,
+				"qualifiedRate": "7800",
+				"qualifiedNum": 7600,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "钦州市",
+				"pollingNum": 7600,
+				"qualifiedRate": "7600",
+				"qualifiedNum": 7400,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "贺州市",
+				"pollingNum": 7400,
+				"qualifiedRate": "7400",
+				"qualifiedNum": 7200,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "来宾市",
+				"pollingNum": 7200,
+				"qualifiedRate": "7200",
+				"qualifiedNum": 7000,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "北海市",
+				"pollingNum": 7000,
+				"qualifiedRate": "7000",
+				"qualifiedNum": 6800,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "柳州市",
+				"pollingNum": 6800,
+				"qualifiedRate": "6800",
+				"qualifiedNum": 6600,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "百色市",
+				"pollingNum": 6600,
+				"qualifiedRate": "6600",
+				"qualifiedNum": 6400,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "河池市",
+				"pollingNum": 6400,
+				"qualifiedRate": "6400",
+				"qualifiedNum": 6200,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "玉林市",
+				"pollingNum": 6200,
+				"qualifiedRate": "6200",
+				"qualifiedNum": 6000,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "梧州市",
+				"pollingNum": 6000,
+				"qualifiedRate": "6000",
+				"qualifiedNum": 5800,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "防城港市",
+				"pollingNum": 5800,
+				"qualifiedRate": "5800",
+				"qualifiedNum": 5600,
+				"unqualifiedNum": 200
+			},
+			{
+				"name": "崇左市",
+				"pollingNum": 5600,
+				"qualifiedRate": "5600",
+				"qualifiedNum": 5400,
+				"unqualifiedNum": 200
+			}
+		],
+		"qualifiedList": [
+			{
+				"name": "桂林市",
+				"totalRanking": 1,
+				"totalScore": 9400,
+				"groupNum": 10,
+				"pollingNum": 94,
+				"qualifiedNum": 94,
+				"qualifiedRate": "94",
+				"unqualifiedNum": 94,
+				"onlineNum": 94,
+				"onlineRate": "94",
+				"score": "94"
+			},{
+				"name": "南宁市",
+				"totalRanking": 2,
+				"totalScore": 9000,
+				"groupNum": 10,
+				"pollingNum": "90",
+				"qualifiedNum": 90,
+				"qualifiedRate": "90",
+				"unqualifiedNum": 90,
+				"onlineNum": 90,
+				"onlineRate": "90",
+				"score": "90"
+			},{
+				"name": "贵港市",
+				"totalRanking": 3,
+				"totalScore": 8400,
+				"groupNum": 10,
+				"pollingNum": "84",
+				"qualifiedNum": 84,
+				"qualifiedRate": "84",
+				"unqualifiedNum": 84,
+				"onlineNum": 84,
+				"onlineRate": "84",
+				"score": "84"
+			},{
+				"name": "钦州市",
+				"totalRanking": 4,
+				"totalScore": 7800,
+				"groupNum": 10,
+				"pollingNum": "78",
+				"qualifiedNum": 78,
+				"qualifiedRate": "78",
+				"unqualifiedNum": 78,
+				"onlineNum": 78,
+				"onlineRate": "78",
+				"score": "78"
+			},{
+				"name": "贺州市",
+				"totalRanking": 5,
+				"totalScore": 6400,
+				"groupNum": 10,
+				"pollingNum": "64",
+				"qualifiedNum": 64,
+				"qualifiedRate": "64",
+				"unqualifiedNum": 64,
+				"onlineNum": 64,
+				"onlineRate": "64",
+				"score": "64"
+			},{
+				"name": "来宾市",
+				"totalRanking": 6,
+				"totalScore": 5800,
+				"groupNum": 10,
+				"pollingNum": "58",
+				"qualifiedNum": 58,
+				"qualifiedRate": "58",
+				"unqualifiedNum": 58,
+				"onlineNum": 58,
+				"onlineRate": "58",
+				"score": "58"
+			},{
+				"name": "北海市",
+				"totalRanking": 7,
+				"totalScore": 5200,
+				"groupNum": 10,
+				"pollingNum": "52",
+				"qualifiedNum": 52,
+				"qualifiedRate": "52",
+				"unqualifiedNum": 52,
+				"onlineNum": 52,
+				"onlineRate": "52",
+				"score": "52"
+			},{
+				"name": "柳州市",
+				"totalRanking": 8,
+				"totalScore": 4600,
+				"groupNum": 10,
+				"pollingNum": "46",
+				"qualifiedNum": 46,
+				"qualifiedRate": "46",
+				"unqualifiedNum": 46,
+				"onlineNum": 46,
+				"onlineRate": "46",
+				"score": "46"
+			},{
+				"name": "百色市",
+				"totalRanking": 9,
+				"totalScore": 4200,
+				"groupNum": 10,
+				"pollingNum": "42",
+				"qualifiedNum": 42,
+				"qualifiedRate": "42",
+				"unqualifiedNum": 42,
+				"onlineNum": 42,
+				"onlineRate": "42",
+				"score": "42"
+			},{
+				"name": "河池市",
+				"totalRanking": 10,
+				"totalScore": 3800,
+				"groupNum": 10,
+				"pollingNum": "38",
+				"qualifiedNum": 38,
+				"qualifiedRate": "38",
+				"unqualifiedNum": 38,
+				"onlineNum": 38,
+				"onlineRate": "38",
+				"score": "38"
+			},{
+				"name": "玉林市",
+				"totalRanking": 11,
+				"totalScore": 3600,
+				"groupNum": 10,
+				"pollingNum": "36",
+				"qualifiedNum": 36,
+				"qualifiedRate": "36",
+				"unqualifiedNum": 36,
+				"onlineNum": 36,
+				"onlineRate": "36",
+				"score": "36"
+			},{
+				"name": "梧州市",
+				"totalRanking": 12,
+				"totalScore": 3200,
+				"groupNum": 10,
+				"pollingNum": "32",
+				"qualifiedNum": 32,
+				"qualifiedRate": "32",
+				"unqualifiedNum": 32,
+				"onlineNum": 32,
+				"onlineRate": "32",
+				"score": "32"
+			},{
+				"name": "防尘港市",
+				"totalRanking": 13,
+				"totalScore": 2600,
+				"groupNum": 10,
+				"pollingNum": "26",
+				"qualifiedNum": 26,
+				"qualifiedRate": "26",
+				"unqualifiedNum": 26,
+				"onlineNum": 26,
+				"onlineRate": "26",
+				"score": "26"
+			},{
+				"name": "崇左市",
+				"totalRanking": 14,
+				"totalScore": 1800,
+				"groupNum": 10,
+				"pollingNum": "18",
+				"qualifiedNum": 18,
+				"qualifiedRate": "18",
+				"unqualifiedNum": 18,
+				"onlineNum": 18,
+				"onlineRate": "18",
+				"score": "18"
+			}
+		],
+		"cityQualifiedChart": [
+			{
+				"name": "南宁市区",
+				"pollingNum": 9400,
+				"qualifiedNum": 9200,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "9400"
+			},{
+				"name": "兴宁区",
+				"pollingNum": 9000,
+				"qualifiedNum": 8800,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "9000"
+			},{
+				"name": "青秀区",
+				"pollingNum": 8800,
+				"qualifiedNum": 8600,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "8800"
+			},{
+				"name": "江南区",
+				"pollingNum": 8600,
+				"qualifiedNum": 8400,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "8600"
+			},{
+				"name": "西乡塘区",
+				"pollingNum": 8400,
+				"qualifiedNum": 8200,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "8400"
+			},{
+				"name": "良庆区",
+				"pollingNum": 8200,
+				"qualifiedNum": 8000,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "8200"
+			},{
+				"name": "邕宁区",
+				"pollingNum": 8000,
+				"qualifiedNum": 7800,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "8000"
+			},{
+				"name": "南湖区",
+				"pollingNum": 7800,
+				"qualifiedNum": 7600,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "7800"
+			},{
+				"name": "高新区",
+				"pollingNum": 7600,
+				"qualifiedNum": 7400,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "7600"
+			},{
+				"name": "青秀山区",
+				"pollingNum": 7400,
+				"qualifiedNum": 7200,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "7400"
+			},{
+				"name": "华侨投资区",
+				"pollingNum": 7200,
+				"qualifiedNum": 7000,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "7200"
+			},{
+				"name": "武鸣区",
+				"pollingNum": 7000,
+				"qualifiedNum": 6800,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "7000"
+			},{
+				"name": "隆安县",
+				"pollingNum": 6800,
+				"qualifiedNum": 6600,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "6800"
+			},{
+				"name": "马山县",
+				"pollingNum": 6600,
+				"qualifiedNum": 6400,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "6600"
+			},{
+				"name": "上林县",
+				"pollingNum": 6400,
+				"qualifiedNum": 6200,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "6400"
+			},{
+				"name": "宾阳县",
+				"pollingNum": 6200,
+				"qualifiedNum": 6000,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "6200"
+			},{
+				"name": "横县",
+				"pollingNum": 6000,
+				"qualifiedNum": 5800,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "6000"
+			},{
+				"name": "南宁社会面",
+				"pollingNum": 5800,
+				"qualifiedNum": 5600,
+				"unqualifiedNum": 200,
+				"qualifiedRate": "5800"
+			}
+		],
+		"cityQualifiedList": [
+			{
+				"name": "南宁市区",
+				"totalRanking": 1,
+				"totalScore": 9400,
+				"groupNum": 10,
+				"pollingNum": 94,
+				"qualifiedNum": 94,
+				"qualifiedRate": "94",
+				"unqualifiedNum": 94,
+				"onlineNum": 94,
+				"onlineRate": "94",
+				"score": "94"
+			},{
+				"name": "兴宁区",
+				"totalRanking": 2,
+				"totalScore": 9000,
+				"groupNum": 10,
+				"pollingNum": 90,
+				"qualifiedNum": 90,
+				"qualifiedRate": "90",
+				"unqualifiedNum": 90,
+				"onlineNum": 90,
+				"onlineRate": "90",
+				"score": "90"
+			},{
+				"name": "青秀区",
+				"totalRanking": 3,
+				"totalScore": 8400,
+				"groupNum": 10,
+				"pollingNum": 84,
+				"qualifiedNum": 84,
+				"qualifiedRate": "84",
+				"unqualifiedNum": 84,
+				"onlineNum": 84,
+				"onlineRate": "84",
+				"score": "84"
+			},{
+				"name": "江南区",
+				"totalRanking": 4,
+				"totalScore": 7800,
+				"groupNum": 10,
+				"pollingNum": 78,
+				"qualifiedNum": 78,
+				"qualifiedRate": "78",
+				"unqualifiedNum": 78,
+				"onlineNum": 78,
+				"onlineRate": "78",
+				"score": "78"
+			},{
+				"name": "西乡塘区",
+				"totalRanking": 5,
+				"totalScore": 6400,
+				"groupNum": 10,
+				"pollingNum": 64,
+				"qualifiedNum": 64,
+				"qualifiedRate": "64",
+				"unqualifiedNum": 64,
+				"onlineNum": 64,
+				"onlineRate": "64",
+				"score": "64"
+			},{
+				"name": "良庆区",
+				"totalRanking": 6,
+				"totalScore": 5800,
+				"groupNum": 10,
+				"pollingNum": 58,
+				"qualifiedNum": 58,
+				"qualifiedRate": "58",
+				"unqualifiedNum": 58,
+				"onlineNum": 58,
+				"onlineRate": "58",
+				"score": "58"
+			},{
+				"name": "邕宁区",
+				"totalRanking": 7,
+				"totalScore": 5200,
+				"groupNum": 10,
+				"pollingNum": 52,
+				"qualifiedNum": 52,
+				"qualifiedRate": "52",
+				"unqualifiedNum": 52,
+				"onlineNum": 52,
+				"onlineRate": "52",
+				"score": "52"
+			},{
+				"name": "南湖区",
+				"totalRanking": 8,
+				"totalScore": 4600,
+				"groupNum": 10,
+				"pollingNum": 46,
+				"qualifiedNum": 46,
+				"qualifiedRate": "46",
+				"unqualifiedNum": 46,
+				"onlineNum": 46,
+				"onlineRate": "46",
+				"score": "46"
+			},{
+				"name": "高新区",
+				"totalRanking": 9,
+				"totalScore": 4200,
+				"groupNum": 10,
+				"pollingNum": 42,
+				"qualifiedNum": 42,
+				"qualifiedRate": "42",
+				"unqualifiedNum": 42,
+				"onlineNum": 42,
+				"onlineRate": "42",
+				"score": "42"
+			},{
+				"name": "青秀山区",
+				"totalRanking": 10,
+				"totalScore": 3800,
+				"groupNum": 10,
+				"pollingNum": 38,
+				"qualifiedNum": 38,
+				"qualifiedRate": "38",
+				"unqualifiedNum": 38,
+				"onlineNum": 38,
+				"onlineRate": "38",
+				"score": "38"
+			},{
+				"name": "华侨投资区",
+				"totalRanking": 11,
+				"totalScore": 3600,
+				"groupNum": 10,
+				"pollingNum": 36,
+				"qualifiedNum": 36,
+				"qualifiedRate": "36",
+				"unqualifiedNum": 36,
+				"onlineNum": 36,
+				"onlineRate": "36",
+				"score": "36"
+			},{
+				"name": "武鸣区",
+				"totalRanking": 12,
+				"totalScore": 3200,
+				"groupNum": 10,
+				"pollingNum": 32,
+				"qualifiedNum": 32,
+				"qualifiedRate": "32",
+				"unqualifiedNum": 32,
+				"onlineNum": 32,
+				"onlineRate": "32",
+				"score": "32"
+			},{
+				"name": "隆安县",
+				"totalRanking": 13,
+				"totalScore": 2600,
+				"groupNum": 10,
+				"pollingNum": 26,
+				"qualifiedNum": 26,
+				"qualifiedRate": "26",
+				"unqualifiedNum": 26,
+				"onlineNum": 26,
+				"onlineRate": "26",
+				"score": "26"
+			},{
+				"name": "马山县",
+				"totalRanking": 14,
+				"totalScore": 1800,
+				"groupNum": 10,
+				"pollingNum": 18,
+				"qualifiedNum": 18,
+				"qualifiedRate": "18",
+				"unqualifiedNum": 18,
+				"onlineNum": 18,
+				"onlineRate": "18",
+				"score": "18"
+			},{
+				"name": "上林县",
+				"totalRanking": 15,
+				"totalScore": 1400,
+				"groupNum": 10,
+				"pollingNum": 14,
+				"qualifiedNum": 14,
+				"qualifiedRate": "14",
+				"unqualifiedNum": 14,
+				"onlineNum": 14,
+				"onlineRate": "14",
+				"score": "14"
+			},{
+				"name": "宾阳县",
+				"totalRanking": 16,
+				"totalScore": 1000,
+				"groupNum": 10,
+				"pollingNum": 10,
+				"qualifiedNum": 10,
+				"qualifiedRate": "10",
+				"unqualifiedNum": 10,
+				"onlineNum": 10,
+				"onlineRate": "10",
+				"score": "10"
+			},{
+				"name": "横县",
+				"totalRanking": 17,
+				"totalScore": 800,
+				"groupNum": 10,
+				"pollingNum": 8,
+				"qualifiedNum": 8,
+				"qualifiedRate": "8",
+				"unqualifiedNum": 8,
+				"onlineNum": 8,
+			    "onlineRate": "8",
+				"score": "8"
+			},{
+				"name": "南宁社会面",
+				"totalRanking": 18,
+				"totalScore": 400,
+				"groupNum": 10,
+				"pollingNum": 4,
+				"qualifiedNum": 4,
+				"qualifiedRate": "4",
+				"unqualifiedNum": 4,
+				"onlineNum": 4,
+				"onlineRate": "4",
+				"score": "4"
+			}
+		],
+		"unQualifiedList": [
+			{
+				"groupName": "武鸣县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "隆安县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "马山县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "上林县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "宾阳县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			},{
+				"groupName": "横县",
+				"deviceGBID": "45016600001234567890",
+				"deviceName": "广西民族大道规划街道",
+				"unqualifiedCause": "设备不在线",
+				"unqualifiedPictureURL": "截图连接/能查看/下载"
+			}
+		],
+		"keyAreaQualifiedList": [
+			{
+				"name": "桂林市",
+				"totalRanking": 1,
+				"totalScore": 10,
+				"totalpollingNum": 9400,
+				"qualifiedNum": 9000,
+				"qualifiedRate": "94",
+				"unqualifiedNum": 400,
+				"score": "94"
+			},{
+				"name": "南宁市",
+				"totalRanking": 2,
+				"totalScore": 10,
+				"totalpollingNum": 9000,
+				"qualifiedNum": 8600,
+				"qualifiedRate": "90",
+				"unqualifiedNum": 400,
+				"score": "90"
+			},{
+				"name": "贵港市",
+				"totalRanking": 3,
+				"totalScore": 10,
+				"totalpollingNum": 8400,
+				"qualifiedNum": 8000,
+				"qualifiedRate": "84",
+				"unqualifiedNum": 400,
+				"score": "84"
+			},{
+				"name": "钦州市",
+				"totalRanking": 4,
+				"totalScore": 10,
+				"totalpollingNum": 8000,
+				"qualifiedNum": 7600,
+				"qualifiedRate": "80",
+				"unqualifiedNum": 400,
+				"score": "80"
+			},{
+				"name": "贺州市",
+				"totalRanking": 5,
+				"totalScore": 10,
+				"totalpollingNum": 7600,
+				"qualifiedNum": 7200,
+				"qualifiedRate": "76",
+				"unqualifiedNum": 400,
+				"score": "76"
+			},{
+				"name": "来宾市",
+				"totalRanking": 6,
+				"totalScore": 10,
+				"totalpollingNum": 7200,
+				"qualifiedNum": 6800,
+				"qualifiedRate": "72",
+				"unqualifiedNum": 400,
+				"score": "72"
+			},{
+				"name": "北海市",
+				"totalRanking": 7,
+				"totalScore": 10,
+				"totalpollingNum": 6800,
+				"qualifiedNum": 6400,
+				"qualifiedRate": "68",
+				"unqualifiedNum": 400,
+				"score": "68"
+			},{
+				"name": "柳州市",
+				"totalRanking": 8,
+				"totalScore": 10,
+				"totalpollingNum": 6400,
+				"qualifiedNum": 6000,
+				"qualifiedRate": "64",
+				"unqualifiedNum": 400,
+				"score": "64"
+			},{
+				"name": "百色市",
+				"totalRanking": 9,
+				"totalScore": 10,
+				"totalpollingNum": 6000,
+				"qualifiedNum": 5600,
+				"qualifiedRate": "60",
+				"unqualifiedNum": 400,
+				"score": "60"
+			},{
+				"name": "河池市",
+				"totalRanking": 10,
+				"totalScore": 10,
+				"totalpollingNum": 5600,
+				"qualifiedNum": 5200,
+				"qualifiedRate": "56",
+				"unqualifiedNum": 400,
+				"score": "56"
+			},{
+				"name": "玉林市",
+				"totalRanking": 11,
+				"totalScore": 10,
+				"totalpollingNum": 5200,
+				"qualifiedNum": 4800,
+				"qualifiedRate": "52",
+				"unqualifiedNum": 400,
+				"score": "52"
+			},{
+				"name": "梧州市",
+				"totalRanking": 12,
+				"totalScore": 10,
+				"totalpollingNum": 4800,
+				"qualifiedNum": 4400,
+				"qualifiedRate": "48",
+				"unqualifiedNum": 400,
+				"score": "48"
+			},{
+				"name": "防尘港市",
+				"totalRanking": 13,
+				"totalScore": 10,
+				"totalpollingNum": 4400,
+				"qualifiedNum": 4000,
+				"qualifiedRate": "44",
+				"unqualifiedNum": 400,
+				"score": "44"
+			},{
+				"name": "崇左市",
+				"totalRanking": 14,
+				"totalScore": 10,
+				"totalpollingNum": 4000,
+				"qualifiedNum": 3600,
+				"qualifiedRate": "40",
+				"unqualifiedNum": 400,
+				"score": "40"
+			}
+		],
+		"keyAreaQualifiedChart": [
+			{
+				"name":"桂林市",
+				"pollingNum": 9400,
+				"qualifiedNum": 9000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "94"
+			},{
+				"name":"南宁市",
+				"pollingNum": 9000,
+				"qualifiedNum": 8600,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "90"
+			},{
+				"name":"贵港市",
+				"pollingNum": 8600,
+				"qualifiedNum": 8200,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "86"
+			},{
+				"name":"钦州市",
+				"pollingNum": 8200,
+				"qualifiedNum": 7800,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "82"
+			},{
+				"name":"贺州市",
+				"pollingNum": 7800,
+				"qualifiedNum": 7400,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "78"
+			},{
+				"name":"来宾市",
+				"pollingNum": 7400,
+				"qualifiedNum": 7000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "74"
+			},{
+				"name":"北海市",
+				"pollingNum": 7000,
+				"qualifiedNum": 6400,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "70"
+			},{
+				"name":"柳州市",
+				"pollingNum": 6400,
+				"qualifiedNum": 6000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "64"
+			},{
+				"name":"百色市",
+				"pollingNum": 6000,
+				"qualifiedNum": 5600,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "60"
+			},{
+				"name":"河池市",
+				"pollingNum": 5600,
+				"qualifiedNum": 5200,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "56"
+			},{
+				"name":"玉林市",
+				"pollingNum": 5200,
+				"qualifiedNum": 4800,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "52"
+			},{
+				"name":"梧州市",
+				"pollingNum": 4800,
+				"qualifiedNum": 4400,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "48"
+			},{
+				"name":"防尘港市",
+				"pollingNum": 4400,
+				"qualifiedNum": 4000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "44"
+			},{
+				"name":"崇左市",
+				"pollingNum": 4000,
+				"qualifiedNum": 3600,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "40"
+			}
+		],
+		"cityKeyAreaQualifiedList": [
+			{
+				"name": "南宁市区",
+				"totalRanking": 1,
+				"totalScore": 9400,
+				"totalpollingNum": 10,
+				"qualifiedNum": 9000,
+				"qualifiedRate": "94",
+				"unqualifiedNum": 400,
+				"score": "94"
+			},{
+				"name": "隆安县",
+				"totalRanking": 2,
+				"totalScore": 9000,
+				"totalpollingNum": 10,
+				"qualifiedNum": 8600,
+				"qualifiedRate": "94",
+				"unqualifiedNum": 400,
+				"score": "90"
+			},{
+				"name": "马山县",
+				"totalRanking": 3,
+				"totalScore": 8600,
+				"totalpollingNum": 10,
+				"qualifiedNum": 8200,
+				"qualifiedRate": "86",
+				"unqualifiedNum": 400,
+				"score": "86"
+			},{
+				"name": "上林县",
+				"totalRanking": 4,
+				"totalScore": 8200,
+				"totalpollingNum": 10,
+				"qualifiedNum": 7800,
+				"qualifiedRate": "82",
+				"unqualifiedNum": 400,
+				"score": "82"
+			},{
+				"name": "宾阳县",
+				"totalRanking": 5,
+				"totalScore": 7800,
+				"totalpollingNum": 10,
+				"qualifiedNum": 7400,
+				"qualifiedRate": "78",
+				"unqualifiedNum": 400,
+				"score": "78"
+			},{
+				"name": "横县",
+				"totalRanking": 6,
+				"totalScore": 7400,
+				"totalpollingNum": 10,
+				"qualifiedNum": 7000,
+				"qualifiedRate": "74",
+				"unqualifiedNum": 400,
+				"score": "74"
+			},{
+				"name": "武鸣区",
+				"totalRanking": 7,
+				"totalScore": 7000,
+				"totalpollingNum": 10,
+				"qualifiedNum": 6600,
+				"qualifiedRate": "70",
+				"unqualifiedNum": 400,
+				"score": "70"
+			},{
+				"name": "南宁社会面",
+				"totalRanking": 8,
+				"totalScore": 6600,
+				"totalpollingNum": 10,
+				"qualifiedNum": 6200,
+				"qualifiedRate": "66",
+				"unqualifiedNum": 400,
+				"score": "66"
+			}
+		],
+		"cityKeyAreaQualifiedChart": [
+			{
+				"name":"南宁市区",
+				"pollingNum": 9400,
+				"qualifiedNum": 9000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "94"
+			},{
+				"name":"隆安县",
+				"pollingNum": 9000,
+				"qualifiedNum": 8600,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "90"
+			},{
+				"name":"马山县",
+				"pollingNum": 8600,
+				"qualifiedNum": 8200,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "86"
+			},{
+				"name":"上林县",
+				"pollingNum": 8200,
+				"qualifiedNum": 7800,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "82"
+			},{
+				"name":"宾阳县",
+				"pollingNum": 7800,
+				"qualifiedNum": 7400,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "78"
+			},{
+				"name":"横县",
+				"pollingNum": 7400,
+				"qualifiedNum": 7000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "74"
+			},{
+				"name":"武鸣区",
+				"pollingNum": 7000,
+				"qualifiedNum": 6400,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "70"
+			},{
+				"name":"南宁社会面",
+				"pollingNum": 6400,
+				"qualifiedNum": 6000,
+				"unqualifiedNum": 400,
+				"qualifiedRate": "64"
+			}
+		]
+	}
+}

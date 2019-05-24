@@ -1,0 +1,70 @@
+// 公共元素样式
+// author：陈洋
+// date：2018/10/23
+
+/* 字体 */
+@font-face {
+	font-family: Gotham-BoldItalic;
+	src: url('../fonts/Gotham-BoldItalic.otf');
+}
+// 布局
+.content-div {
+	height: 100%;
+	padding: 10px 10px 0;
+	display: flex;
+	flex-direction: column;
+	.table-div {
+		background: #FFF;
+		flex: 1;
+		padding: 0 10px;
+		overflow:auto;
+	}
+	.form-div {
+		background: #FFF;
+		flex: 1;
+	}
+	.pagers {
+		background: white;
+		height: 96px;
+		text-align: right;
+		display: flex;
+		align-items: center;
+		justify-content:flex-end;
+	/deep/	.kc-select .kc-input__inner {
+		background-color: #FFFFFF !important;
+	}
+	}
+	.userful_label {
+		color: #1CB1FE;
+		background-color: #F1F8FF;
+		border: 1px solid #BDDEFF;
+	}
+	.unuserful_label {
+		color: #FF4F4F;
+		background-color: #FFF4F7;
+		border: 1px solid #FFDEE7;
+	}
+	.content-bottom-div { // 分三部分的页面的底部内容布局
+		display: flex;
+		flex: 1;
+	    position: relative;
+		.left-div {
+			padding-top: 10px;
+			margin-right: 10px;
+			background: #FFF;
+		}
+		.right-div {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			background: #FFF;
+			padding: 0 10px;
+		}
+	}
+}
+// 页面滚动样式
+.content-scroll-div {
+	height: 100%;
+	overflow: auto;
+	display: block !important;
+}

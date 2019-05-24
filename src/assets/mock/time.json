@@ -1,0 +1,10 @@
+{
+	"code": 1,
+	"message": "",
+	"status": 200,
+	"data": {
+		"startTime": 1451321999000,
+		"endTime": 1551321999000,
+		"currentTime": 1559321999000
+	}
+}

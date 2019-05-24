@@ -1,0 +1,5 @@
+{
+	"BASE_URL": "http://172.16.64.215",
+	"MOCK_URL": "http://localhost:8080",
+	"CONTEXT_PATH": ""
+}
