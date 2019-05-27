@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="">
+    <router-view/>
   </div>
 </template>
 
@@ -9,7 +9,6 @@
     name: 'app',
     data() {
       return {
-        msg: ''
       }
     }
   }

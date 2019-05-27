@@ -1,61 +1,24 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from 'main/view/main/Main';
-import Login from 'main/view/login/Login';
+import Home from '../../src/view/homePage.vue';
+
 
 // import dyanpageRouter from 'dynapage/app-dynapage/router';
 // import SubRouter from 'submodule/ioms-apprasial/router';
-const moduleConfig = require('../../module-config.js');
 
 let routes = [
   {
     path: '/',
     name: '',
     meta: {sign: 'IS_NOT_REQUIRE'},
-    redirect: '/login'
+    redirect: '/home'
   },
   {
-    path: '/login',
-    name: 'login',
+    path: '/home',
+    name: 'home',
     meta: {sign: 'IS_NOT_REQUIRE'},
     title: '登录',
-    component: Login
-  },
-  {
-    path: '/demo',
-    name: 'demo',
-    meta: {sign: 'IS_NOT_REQUIRE'},
-    title: 'demo',
-    component: () => import('main/view/main/demo')
-  },
-  {
-    path: '/kisp',
-    icon: 'ios-grid-view',
-    name: 'kisp',
-    title: '首页',
-    meta: {sign: 'AUTH_INDEX'},
-    component: Home,
-    children: [
-      // 权限管理 结束
-      // 个人中心
-      {
-        // path: 'personal-center/:userId',
-        path: 'personal-center',
-        title: '个人中心',
-        name: 'personal-center',
-        meta: {sign: 'IS_NOT_REQUIRE'},
-        icon: 'arrow-move',
-        component: () => import('main/view/personal-center/index')
-      },
-      {
-        path: '/*',
-        title: '404',
-        name: 'ppl-detail',
-        meta: {sign: 'IS_NOT_REQUIRE'},
-        icon: 'arrow-move',
-        component: () => import('main/view/error-page/404.vue')
-      }
-    ]
+    component: Home
   }
 ];
 
@@ -63,18 +26,6 @@ let routes = [
 // routes.unshift(...dyanpageRouter(Home));
 // routes.unshift(...SubRouter(Home));
 
-if (moduleConfig && moduleConfig.length > 0) {
-  moduleConfig.forEach(item => {
-    if (item.router) {
-      try {
-        var Router = require(`submodule/${item.name}/router`);
-        routes.unshift(...Router.default(Home));
-      } catch (err) {
-        console.warn('cannot find submodule\'s router.js!');
-      }
-    }
-  });
-}
 
 Vue.use(Router);
 console.log('router', routes);
