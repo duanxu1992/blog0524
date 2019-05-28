@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="shouqianniuicon" unicode="&#59154;" d="M0-128 0-14.222222 1137.777778-14.222222 1137.777778-128 0-128ZM0 440.888889 1137.777778 440.888889 1137.777778 327.111111 0 327.111111 0 440.888889ZM0 896 1137.777778 896 1137.777778 782.222222 0 782.222222 0 896Z"  horiz-adv-x="1138" />
+
+    
+    <glyph glyph-name="zhankaianniuicon" unicode="&#59155;" d="M870.4-128 870.4 896 972.8 896 972.8-128 870.4-128ZM460.8 896 563.2 896 563.2-128 460.8-128 460.8 896ZM51.2 896 153.6 896 153.6-128 51.2-128 51.2 896Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

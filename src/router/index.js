@@ -41,7 +41,7 @@ router.beforeEach((to, from, next) => {
     document.getElementsByTagName('html')[0].className = (to.path.split('/')[2] || to.path.split('/')[1]) + '-page';
   }
   // if (to.meta.sign === 'IS_NOT_REQUIRE') {
-  if (false) {
+  if (true) {
     next();
   } else {
     if (sessionStorage.getItem('jwt_token')) {

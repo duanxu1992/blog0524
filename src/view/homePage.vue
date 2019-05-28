@@ -1,38 +1,27 @@
 <template>
   <div id="home" class="blog_home">
     <div class="nav">
-      <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
-        <el-radio-button :label="false">展开</el-radio-button>
-        <el-radio-button :label="true">收起</el-radio-button>
-      </el-radio-group>
-      <el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose"
+      <!--<el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">-->
+      <!--<el-radio-button :label="false">展开</el-radio-button>-->
+      <!--<el-radio-button :label="true">收起</el-radio-button>-->
+      <!--</el-radio-group>-->
+      <!--<div @click="meunButton" class="menuButton">-->
+      <!--<i :class="isCollapse?'iconfont icon-shouqianniuicon' :'iconfont icon-zhankaianniuicon'"></i>-->
+      <!--</div>-->
+      <el-menu default-active="" mode="horizontal" class="el-menu-vertical-demo" @open="handleOpen"
+               @close="handleClose"
                :collapse="isCollapse">
-        <el-submenu index="1">
-          <template slot="title">
-            <i class="el-icon-location"></i>
-            <span slot="title">导航一</span>
-          </template>
-          <el-menu-item-group>
-            <span slot="title">分组一</span>
-            <el-menu-item index="1-1">选项1</el-menu-item>
-            <el-menu-item index="1-2">选项2</el-menu-item>
-          </el-menu-item-group>
-          <el-menu-item-group title="分组2">
-            <el-menu-item index="1-3">选项3</el-menu-item>
-          </el-menu-item-group>
-          <el-submenu index="1-4">
-            <span slot="title">选项4</span>
-            <el-menu-item index="1-4-1">选项1</el-menu-item>
-          </el-submenu>
-        </el-submenu>
-        <el-menu-item index="2">
-          <i class="el-icon-menu"></i>
-          <span slot="title">导航二</span>
-        </el-menu-item>
-        <el-menu-item index="3">
-          <i class="el-icon-setting"></i>
-          <span slot="title">导航三</span>
-        </el-menu-item>
+
+        <div v-for="(item,index) in menu" :index="index" class="menu-div">
+          <!-- 一级菜单-->
+          <el-menu-item v-if="item.menus.length===0">
+            <template slot="title">
+              <i class="el-icon-location"></i>
+              <span slot="title">{{item.name}}</span>
+            </template>
+          </el-menu-item>
+          <!--二级菜单-->
+        </div>
       </el-menu>
     </div>
   </div>
@@ -43,11 +32,20 @@
     name: 'home',
     data() {
       return {
-        isCollapse: true
+        isCollapse: false,
+        menu: [
+          {name: '首页', menuPath: '/home', icon: '', menus: []},
+          {name: '分类', menuPath: '/category', icon: '', menus: []},
+          {name: '关于', menuPath: '/about', icon: '', menus: []}
+        ],
       };
     },
     methods: {
+      meunButton() {
+        this.isCollapse = !this.isCollapse;
+      },
       handleOpen(key, keyPath) {
+        debugger
         console.log(key, keyPath);
       },
       handleClose(key, keyPath) {
@@ -58,7 +56,30 @@
 </script>
 
 <style lang="scss">
-  .el-menu-vertical-demo:not(.el-menu--collapse) {
+  .blog_home {
+    height: 100%;
+    width: 100%;
+    .nav {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 500px;
+      height: 60px;
+      .menuButton {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: -30px;
+      }
+      .menu-div {
+        width: 100px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  /deep/ .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 200px;
     min-height: 400px;
   }
