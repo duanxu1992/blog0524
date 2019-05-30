@@ -1,0 +1,37 @@
+.blog_home {
+  height: 100%;
+  width: 100%;
+  .nav {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    .menuButton {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      right: -30px;
+    }
+    .menu-div {
+      width: 100px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .main {
+    height: calc(100% - 60px);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: auto;
+    //background: aquamarine;
+  }
+}
+
+/deep/ .el-menu-vertical-demo:not(.el-menu--collapse) {
+  margin: auto;
+  width: 600px;
+  height: 100%;
+}

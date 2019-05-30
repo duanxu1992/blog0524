@@ -1,11 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Main from '../../src/view/main.vue';
 import Home from '../../src/view/homePage.vue';
-
+import About from '../../src/view/about.vue';
+import Categroy from '../../src/view/category.vue';
 
 // import dyanpageRouter from 'dynapage/app-dynapage/router';
 // import SubRouter from 'submodule/ioms-apprasial/router';
-
+Vue.use(Router);
 let routes = [
   {
     path: '/',
@@ -14,11 +16,31 @@ let routes = [
     redirect: '/home'
   },
   {
-    path: '/home',
-    name: 'home',
+    path: '/',
+    name: 'main',
     meta: {sign: 'IS_NOT_REQUIRE'},
     title: '登录',
-    component: Home
+    component: Main,
+    children: [
+      {
+        path: '/home',
+        name: 'home',
+        meta: {sign: 'IS_NOT_REQUIRE'},
+        component: Home,
+      },
+      {
+        path: '/about-auther',
+        name: 'about',
+        meta: {sign: 'IS_NOT_REQUIRE'},
+        component: About,
+      },
+      {
+        path: '/category',
+        name: 'Categroy',
+        meta: {sign: 'IS_NOT_REQUIRE'},
+        component: Categroy,
+      },
+    ]
   }
 ];
 
@@ -28,19 +50,11 @@ let routes = [
 
 
 Vue.use(Router);
-console.log('router', routes);
 
 let router = new Router({
   routes: routes
 });
 router.beforeEach((to, from, next) => {
-  if (to.matched.length > 0 && to.matched[1] && (to.matched[1].name === 'map-index')) {
-    // 所有map页面html类名样式
-    document.getElementsByTagName('html')[0].className = 'map-html';
-  } else {
-    document.getElementsByTagName('html')[0].className = (to.path.split('/')[2] || to.path.split('/')[1]) + '-page';
-  }
-  // if (to.meta.sign === 'IS_NOT_REQUIRE') {
   if (true) {
     next();
   } else {
