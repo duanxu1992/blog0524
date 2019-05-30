@@ -16,6 +16,7 @@
     }
     .menu-div {
       width: 100px;
+      height: 60px;
       display: inline-block;
       vertical-align: middle;
     }
@@ -34,4 +35,15 @@
   margin: auto;
   width: 600px;
   height: 100%;
+}
+
+/deep/ .el-menu-item:focus, .el-menu-item:hover {
+  background: #dbc5ff;
+  height: 60px !important;
+  border-radius: 5px;
+}
+
+/deep/ .el-menu-item {
+  border-radius: 5px;
+  height: 60px !important;
 }

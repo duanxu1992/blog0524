@@ -1,5 +1,6 @@
 <template>
   <div id="category" class="category">
+    关于分类
   </div>
 </template>
 <script>

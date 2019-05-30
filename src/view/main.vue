@@ -1,7 +1,7 @@
 <template>
   <div id="main" class="blog_home">
     <div class="nav">
-      <el-menu :router="true" text-color="#00000" active-text-color="#ff25a8" default-active="" mode="horizontal"
+      <el-menu :router="true" active-text-color="#ff25a8" default-active="/home" mode="horizontal"
                class="el-menu-vertical-demo"
                @open="handleOpen"
                @close="handleClose"
