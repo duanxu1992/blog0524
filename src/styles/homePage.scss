@@ -1,6 +1,8 @@
 .blog_home {
   height: 100%;
   width: 100%;
+  background: url("../assets/img/bg.png") no-repeat center;
+  background-size: cover;
   .nav {
     overflow: hidden;
     position: fixed;
@@ -34,11 +36,12 @@
 /deep/ .el-menu-vertical-demo:not(.el-menu--collapse) {
   margin: auto;
   width: 600px;
+  background: none !important;
   height: 100%;
 }
 
 /deep/ .el-menu-item:focus, .el-menu-item:hover {
-  background: #dbc5ff;
+  background: #50fff2;
   height: 60px !important;
   border-radius: 5px;
 }
