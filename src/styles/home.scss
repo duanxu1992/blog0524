@@ -18,18 +18,48 @@
     height: 100%;
     //background: #fff;
     & > div {
+      position: relative;
       width: 100%;
       height: 500px;
       background: white;
       margin-bottom: 16px;
-      :after {
-        content: '';
+      // before 前后没有空格
+      &:before {
+        content: "";
         display: block;
-        width: 0;
-        height: 0;
-        border: 8px solid transparent;
+        width: 30px;
+        height: 30px;
+        border-left: 5px solid #ff378a;
+        border-top: 5px solid #ff378a;
         position: absolute;
-        top: 10px;
+        top: 0px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-right: 5px solid #ff378a;
+        border-bottom: 5px solid #ff378a;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+    }
+    .autherInfo {
+      .autherPicture {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 50px;
+        }
       }
     }
   }

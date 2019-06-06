@@ -4,8 +4,13 @@
 
     </div>
     <div class="home-right">
-      <div class="pesonInfo"></div>
-      <div></div>
+      <div class="autherInfo">
+        <div class="autherPicture">
+          <img alt="auther照片" src="../assets/img/touxiang.jpg"/>
+        </div>
+      </div>
+      <div>
+      </div>
       <div></div>
       <div></div>
       <div></div>
