@@ -1,6 +1,15 @@
 <template>
   <div id="home" class="home">
-    首页
+    <div class="home-left">
+
+    </div>
+    <div class="home-right">
+      <div class="pesonInfo"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
 </template>
 <script>
@@ -26,5 +35,5 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../styles/homePage.scss";
+  @import "../styles/home.scss";
 </style>
