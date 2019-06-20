@@ -47,18 +47,49 @@
       }
     }
     .autherInfo {
-      .autherPicture {
+      .auther-picture {
         display: inline-block;
         width: 100px;
         height: 100px;
         border-radius: 50%;
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 20px;
+        margin-top: -50px;
         img {
           height: 100%;
           width: 100%;
           border-radius: 50px;
+        }
+      }
+      .auther-fonts {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 55px;
+        height: 100%;
+        & > p {
+          position: relative;
+          top: 0;
+          float: left;
+          display: inline-block;
+          width: 25px;
+          word-break: break-word;
+          line-height: 20px;
+          font-size: 20px;
+          height: 100%;
+        }
+      }
+      .auther-words {
+        height: auto;
+        width: 24px;
+        position: absolute;
+        top: 50%;
+        margin-top: -75px;
+        right: 200px;
+        & > p {
+          width: 24px;
+          word-wrap: break-word;
         }
       }
     }

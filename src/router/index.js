@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Main from '../../src/view/main.vue';
+import mains from '../../src/view/main.vue';
 import Home from '../../src/view/homePage.vue';
 import About from '../../src/view/about.vue';
 import Categroy from '../../src/view/category.vue';
@@ -20,7 +20,7 @@ let routes = [
     name: 'main',
     meta: {sign: 'IS_NOT_REQUIRE'},
     title: '登录',
-    component: Main,
+    component: mains,
     children: [
       {
         path: '/home',

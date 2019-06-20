@@ -25,7 +25,7 @@
 </template>
 <script>
   export default {
-    name: 'main',
+    name: 'mains',
     data() {
       return {
         isCollapse: false,
@@ -35,6 +35,8 @@
           {name: '关于', menuPath: '/about-auther', icon: 'iconfont  icon-tiantianquan', menus: []}
         ],
       };
+    },
+    mounted() {
     },
     methods: {
       meunButton() {

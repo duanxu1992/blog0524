@@ -1,5 +1,5 @@
 import Util from './util';
-import refreshService from '../service/login';
+// import refreshService from '../service/login';
 
 const AccessTokenKey = 'jwt_token';
 const ExpiresInKey = 'expires_in';
